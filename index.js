@@ -18,7 +18,7 @@ const show = () => {
     )
     console.log(document.cookie.split(";"))
   }
-   document.cookie = "popup=true;path=/;max-age=15768000"
+   document.cookie = "popup=true;path=/;max-age=157"
   showed = true
 
   const element = document.querySelector("#popup")
